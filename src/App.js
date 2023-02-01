@@ -1,7 +1,11 @@
+import Home from "./Components/Home";
+import NavBar from "./Components/NavBar";
+
 function App() {
   return (
     <div>
-      <h1 className="text-4xl font-signature">Hello</h1>
+      <NavBar />
+      <Home />
     </div>
   );
 }
