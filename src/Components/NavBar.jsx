@@ -40,9 +40,7 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
           >
-            <a href={`#${link}`}>
-              {link}
-            </a>
+            <a href={`#${link}`}>{link}</a>
           </li>
         ))}
       </ul>
@@ -61,7 +59,7 @@ const NavBar = () => {
               key={id}
               className="px-4 cursor-pointer capitalize py-6 text-4xl"
             >
-                {link}
+              {link}
             </li>
           ))}
         </ul>
