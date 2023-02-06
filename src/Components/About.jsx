@@ -14,12 +14,14 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+          Frontend engineer passionate about building world class web
+          applications. Has a keen interest in technology and how she can use it
+          to solve problems in her day-to-day activities. 
+          
+          My stack/technologies:
+          • CSS/Sass • JavaScript • Bootstrap 5 • Styled-Component • React.js •
+          Git/GitHub Let's connect and convert your ideas into real life
+          products.
         </p>
 
         <br />
