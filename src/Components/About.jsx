@@ -14,25 +14,24 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Frontend engineer passionate about building world class web
-          applications. Has a keen interest in technology and how she can use it
-          to solve problems in her day-to-day activities. 
-          
-          My stack/technologies:
-          • CSS/Sass • JavaScript • Bootstrap 5 • Styled-Component • React.js •
-          Git/GitHub Let's connect and convert your ideas into real life
-          products.
+          Deborah is a certified Financial modelling valuation analyst, with
+          over two years experience that cuts across logistics and finance…
+          However with a keen interest in technology and how she can use it to
+          solve problems in her day to day activities… Deborah enjoys coding and
+          is engaged in learning web Development. Deborah believes in excellency
+          and is open to unlearn, learn while building the required skills to
+          thrive in a finTech space.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          Frontend engineer passionate about building world class web
+          applications. Has a keen interest in technology and how she can use it
+          to solve problems in her day-to-day activities. My stack/technologies:
+          • CSS/Sass • JavaScript • Bootstrap 5 • Styled-Component • React.js •
+          Git/GitHub Let's connect and convert your ideas into real life
+          products.
         </p>
       </div>
     </div>
