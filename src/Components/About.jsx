@@ -17,7 +17,7 @@ const About = () => {
           Deborah is a certified Financial modelling valuation analyst and a
           frontend engineer with over two years experience that cuts across
           logistics and finance… However with a keen interest in technology and
-          how she can use it to solve problems in her day to day activities…
+          how she can use it to solve problems in her day to day activities.
           Deborah enjoys coding and is engaged in learning web Development.
           Deborah believes in excellency and is open to unlearn, learn while
           building the required skills to thrive in any startup.
