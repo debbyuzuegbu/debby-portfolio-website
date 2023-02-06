@@ -14,24 +14,21 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Deborah is a certified Financial modelling valuation analyst, with
-          over two years experience that cuts across logistics and finance…
-          However with a keen interest in technology and how she can use it to
-          solve problems in her day to day activities… Deborah enjoys coding and
-          is engaged in learning web Development. Deborah believes in excellency
-          and is open to unlearn, learn while building the required skills to
-          thrive in a finTech space.
+          Deborah is a certified Financial modelling valuation analyst and a
+          frontend engineer with over two years experience that cuts across
+          logistics and finance… However with a keen interest in technology and
+          how she can use it to solve problems in her day to day activities…
+          Deborah enjoys coding and is engaged in learning web Development.
+          Deborah believes in excellency and is open to unlearn, learn while
+          building the required skills to thrive in any startup.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Frontend engineer passionate about building world class web
-          applications. Has a keen interest in technology and how she can use it
-          to solve problems in her day-to-day activities. My stack/technologies:
-          • CSS/Sass • JavaScript • Bootstrap 5 • Styled-Component • React.js •
-          Git/GitHub Let's connect and convert your ideas into real life
-          products.
+          My stack/technologies: • CSS/Sass • JavaScript • Bootstrap 5 •
+          Styled-Component • React.js • Git/GitHub Let's connect and convert
+          your ideas into real life products.
         </p>
       </div>
     </div>
