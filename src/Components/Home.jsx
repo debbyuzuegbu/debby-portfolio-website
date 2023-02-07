@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="sm:p-8 h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="p-8 md:p-0 w-full md:h-screen bg-gradient-to-b from-black via-black to-gray-800 bg-contain"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="pt-16 md:p-0 text-2xl md:text-4xl sm:text-7xl font-bold text-white">
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
@@ -38,7 +38,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto sm:w-60 sm:h-48 w-96 h-96 md:w-full"
+            className="rounded-2xl md:mx-auto w-60 h-48 md:w-96 md:h-96"
           />
         </div>
       </div>
