@@ -8,27 +8,34 @@ const About = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="mt-48 text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Deborah is a certified Financial modelling valuation analyst and a
-          frontend engineer with over two years experience that cuts across
-          logistics and finance… However with a keen interest in technology and
-          how she can use it to solve problems in her day to day activities.
+        <p className="text-xl mt-5">
+          Deborah is a frontend Engineer and a certified Financial modelling
+          valuation analyst with over two years experience that cuts across
+          technology and finance.. However She has a keen interest in technology
+          and how she can use it to solve problems in her day to day activities.
           Deborah enjoys coding and is engaged in learning web Development.
-          Deborah believes in excellency and is open to unlearn, learn while
-          building the required skills to thrive in any startup.
+          Deborah believes in excellency and is open to learn while building the
+          required skills to thrive in any organization.
         </p>
 
         <br />
 
         <p className="text-xl">
-          My stack/technologies: • CSS/Sass • JavaScript • Bootstrap 5 •
-          Styled-Component • React.js • Git/GitHub Let's connect and convert
-          your ideas into real life products.
+          My stack/technologies:
+          <ul style={{listStyle: "none"}}>
+            <li>CSS/Sass</li>
+            <li>JavaScript</li>
+            <li> React</li>
+            <li>Git/GitHub</li>
+            <li>Styled-Component</li>
+            <li>Bootstrap 5</li>
+          </ul>
+          <p>Let's connect and convert your ideas into real life products.</p>
         </p>
       </div>
     </div>
