@@ -1,5 +1,5 @@
 import React from "react";
-import africommerce from "../assets/portfolio/africommerce.png";
+import carrental from "../assets/portfolio/carrental.png";
 import githubfinder from "../assets/portfolio/githubfinder.png";
 import trackerapp from "../assets/portfolio/income-tracker-app.png";
 import noteapp from "../assets/portfolio/mini-note-app.png";
@@ -10,9 +10,9 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: africommerce,
-      codelink: 'https://github.com/debbyuzuegbu/africommerce-saas',
-      demolink: 'https://africommerce-saas.vercel.app/',
+      src: carrental,
+      codelink: 'https://github.com/debbyuzuegbu/Debby-car-rental',
+      demolink: 'https://debby-car-rental.vercel.app/home',
     },
     {
       id: 2,
