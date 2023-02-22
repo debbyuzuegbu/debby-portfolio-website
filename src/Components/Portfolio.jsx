@@ -51,12 +51,12 @@ const Portfolio = () => {
       id="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pt-20 md:pt-0 lg:pt-0 pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-4">Check out some of my work right here</p>
         </div>
 
         <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-8 md:px-12 sm:px-0">
