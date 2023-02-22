@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className="pt-28 md:pt-4 md:p-0 text-4xl sm:text-7xl font-bold text-white">
             I'm a Frontend Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 md:max-w-md">
           I am passionate about creating beautiful and performant products with delightful user experiences that helps solve day to day activies. I love to work on web application using technologies like
             React, Tailwind, CSS, HTML, Javascript etc.
           </p>
