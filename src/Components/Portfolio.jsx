@@ -12,6 +12,7 @@ const Portfolio = () => {
       id: 1,
       src: carrental,
       projectname: "Car Rental Application",
+      tab: "_blank",
       description: "A car rental that allows you rent a car at the convenience of your home. Stack/Tools: ReactJs, TailwindCSS, Vercel, Git",
       demolink: "https://debby-car-rental.vercel.app/home",
     },
@@ -19,6 +20,7 @@ const Portfolio = () => {
       id: 2,
       src: githubfinder,
       projectname: "Github Finder",
+      tab: "_blank",
       description: "A Github finder, that gives you an overview of all the repository in your Github account. Stack/Tools: Reactjs, CSS, Vercel, Git",
       demolink: "https://my-repository-website.vercel.app/",
     },
@@ -26,6 +28,7 @@ const Portfolio = () => {
       id: 3,
       src: trackerapp,
       projectname: "Income Tracker",
+      tab: "_blank",
       description: "This is an Income Tracker Application that helps you monitor your expenses and income. Stacks/Tools: Reactjs, CSS, Vercel, Git",
       demolink: "https://income-tracker-app.vercel.app/",
     },
@@ -33,6 +36,7 @@ const Portfolio = () => {
       id: 4,
       src: noteapp,
       projectname: "Note Application",
+      tab: "_blank",
       description:
         "A mini notepad application it helps you manage your task and you have cool features like delete and update your application. Stacks/Tools: Reactjs, Styles Modules, Redux Toolkit, Vercel, Git",
       demolink: "https://todo-app-two-gamma.vercel.app/",
@@ -41,6 +45,7 @@ const Portfolio = () => {
       id: 5,
       src: snackorderapp,
       projectname: "Snack Order Application",
+      tab: "_blank",
       description:
         "A food ordering and delivery web application which possesses a cart. Stack/Tools: Reactjs, Firebase, TailwindCSS, Vercel, Git",
       demolink: "https://food-order-app-woad.vercel.app/",
@@ -49,6 +54,7 @@ const Portfolio = () => {
       id: 6,
       src: youtube,
       projectname: "Video Application",
+      tab: "_blank",
       description:
         "A movie web application where you get information and images on the most trending, popular, top rated, similar movies and TV series. Stack/Tools: Reactjs, CSS, Rapid API, Git, Vercel",
       demolink: "https://youtube-clone-c3va.vercel.app/",
@@ -69,7 +75,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-8 md:px-12 sm:px-0">
-          {portfolios.map(({ id, src, demolink, projectname, description }) => (
+          {portfolios.map(({ id, src, demolink, projectname, description, tab }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -80,12 +86,12 @@ const Portfolio = () => {
                 <h3 className="flex text-center items-center justify-center py-4 px-2">
                   {projectname}
                 </h3>
-                <p className="flex text-center text-sm">{description}</p>
+                <p className="flex text-center text-sm p-2">{description}</p>
               </div>
 
-              <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center box-border">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={demolink}>Demo</a>
+                  <a target={tab} href={demolink}>Demo</a>
                 </button>
               </div>
             </div>
