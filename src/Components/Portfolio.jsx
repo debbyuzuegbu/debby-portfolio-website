@@ -11,45 +11,54 @@ const Portfolio = () => {
     {
       id: 1,
       src: carrental,
-      codelink: 'https://github.com/debbyuzuegbu/Debby-car-rental',
-      demolink: 'https://debby-car-rental.vercel.app/home',
+      projectname: "Car Rental Application",
+      description: "A car rental that allows you rent a car at the convenience of your home. Stack/Tools: ReactJs, TailwindCSS, Vercel, Git",
+      demolink: "https://debby-car-rental.vercel.app/home",
     },
     {
       id: 2,
       src: githubfinder,
-      codelink: 'https://github.com/debbyuzuegbu/MyRepositoryWebsite',
-      demolink: 'https://my-repository-website.vercel.app/', 
+      projectname: "Github Finder",
+      description: "A Github finder, that gives you an overview of all the repository in your Github account. Stack/Tools: Reactjs, CSS, Vercel, Git",
+      demolink: "https://my-repository-website.vercel.app/",
     },
     {
       id: 3,
       src: trackerapp,
-      codelink: 'https://github.com/debbyuzuegbu/income-tracker',
-      demolink: 'https://income-tracker-app.vercel.app/',
+      projectname: "Income Tracker",
+      description: "This is an Income Tracker Application that helps you monitor your expenses and income. Stacks/Tools: Reactjs, CSS, Vercel, Git",
+      demolink: "https://income-tracker-app.vercel.app/",
     },
     {
       id: 4,
       src: noteapp,
-      codelink: 'https://github.com/debbyuzuegbu/todo-app',
-      demolink: 'https://todo-app-two-gamma.vercel.app/',
+      projectname: "Note Application",
+      description:
+        "A mini notepad application it helps you manage your task and you have cool features like delete and update your application. Stacks/Tools: Reactjs, Styles Modules, Redux Toolkit, Vercel, Git",
+      demolink: "https://todo-app-two-gamma.vercel.app/",
     },
     {
       id: 5,
       src: snackorderapp,
-      codelink: 'https://github.com/debbyuzuegbu/restaurant-website',
-      demolink: 'https://food-order-app-woad.vercel.app/',
+      projectname: "Snack Order Application",
+      description:
+        "A food ordering and delivery web application which possesses a cart. Stack/Tools: Reactjs, Firebase, TailwindCSS, Vercel, Git",
+      demolink: "https://food-order-app-woad.vercel.app/",
     },
     {
       id: 6,
       src: youtube,
-      codelink: 'https://github.com/debbyuzuegbu/youtube-clone',
-      demolink: 'https://youtube-clone-c3va.vercel.app/',
+      projectname: "Video Application",
+      description:
+        "A movie web application where you get information and images on the most trending, popular, top rated, similar movies and TV series. Stack/Tools: Reactjs, CSS, Rapid API, Git, Vercel",
+      demolink: "https://youtube-clone-c3va.vercel.app/",
     },
   ];
 
   return (
     <div
       id="portfolio"
-      className="pt-8 pb-8 p-4 bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
+      className="pt-8 pb-8 p-4 bg-gradient-to-b from-gray-800 to-black w-full text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pt-20 md:pt-0 lg:pt-0 pb-8">
@@ -60,19 +69,23 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-8 md:px-12 sm:px-0">
-          {portfolios.map(({ id, src, demolink, codelink }) => (
+          {portfolios.map(({ id, src, demolink, projectname, description }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
+              <div className="text-xl items-center">
+                <h3 className="flex text-center items-center justify-center py-4 px-2">
+                  {projectname}
+                </h3>
+                <p className="flex text-center text-sm">{description}</p>
+              </div>
+
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a href={demolink}>Demo</a>
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={codelink}>Code</a>
                 </button>
               </div>
             </div>
