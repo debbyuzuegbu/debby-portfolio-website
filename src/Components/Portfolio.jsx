@@ -1,7 +1,7 @@
 import React from "react";
 import carrental from "../assets/portfolio/carrental.png";
 import githubfinder from "../assets/portfolio/githubfinder.png";
-import trackerapp from "../assets/portfolio/income-tracker-app.png";
+import luxurystore from "../assets/portfolio/income-tracker-app.png";
 import noteapp from "../assets/portfolio/mini-note-app.png";
 import snackorderapp from "../assets/portfolio/snack-order-app.png";
 import youtube from "../assets/portfolio/youtube.png";
@@ -18,22 +18,32 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: youtube,
+      projectname: "Video Application",
+      tab: "_blank",
+      description:
+        "A movie web application where you get information and images on the most trending, popular, top rated, similar movies and TV series. Stack/Tools: Reactjs, CSS, Rapid API, Git, Vercel",
+      demolink: "https://youtube-clone-c3va.vercel.app/",
+    },
+    {
+      id: 3,
+      src: luxurystore,
+      projectname: "Luxury Store",
+      tab: "_blank",
+      description: "This is an ecommerce app that uses a a dummy api. Stacks/Tools: vue, vuerouter, vuex, CSS, Vercel, Git",
+      demolink: "https://luxury-store-git-master-debbyuzuegbu.vercel.app/",
+    },
+    {
+      id: 4,
       src: githubfinder,
       projectname: "Github Finder",
       tab: "_blank",
       description: "A Github finder, that gives you an overview of all the repository in your Github account. Stack/Tools: Reactjs, CSS, Vercel, Git",
       demolink: "https://my-repository-website.vercel.app/",
     },
+   
     {
-      id: 3,
-      src: trackerapp,
-      projectname: "Income Tracker",
-      tab: "_blank",
-      description: "This is an Income Tracker Application that helps you monitor your expenses and income. Stacks/Tools: Reactjs, CSS, Vercel, Git",
-      demolink: "https://income-tracker-app.vercel.app/",
-    },
-    {
-      id: 4,
+      id: 5,
       src: noteapp,
       projectname: "Note Application",
       tab: "_blank",
@@ -42,7 +52,7 @@ const Portfolio = () => {
       demolink: "https://todo-app-two-gamma.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       src: snackorderapp,
       projectname: "Snack Order Application",
       tab: "_blank",
@@ -50,15 +60,7 @@ const Portfolio = () => {
         "A food ordering and delivery web application which possesses a cart. Stack/Tools: Reactjs, Firebase, TailwindCSS, Vercel, Git",
       demolink: "https://food-order-app-woad.vercel.app/",
     },
-    {
-      id: 6,
-      src: youtube,
-      projectname: "Video Application",
-      tab: "_blank",
-      description:
-        "A movie web application where you get information and images on the most trending, popular, top rated, similar movies and TV series. Stack/Tools: Reactjs, CSS, Rapid API, Git, Vercel",
-      demolink: "https://youtube-clone-c3va.vercel.app/",
-    },
+    
   ];
 
   return (
